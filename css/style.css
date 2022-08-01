@@ -1,0 +1,30 @@
+body {
+  background-color: #fafafa;
+}
+
+.logo img{
+    width: 34px;
+    height: 34px;
+}
+
+.logo h2{
+    margin: 0;
+}
+.nav-search-bar div {
+  background-color: white;
+  width: 250px;
+  padding-left: 2rem;
+
+}
+
+.nav-search-bar div img{
+    width: 18px;
+    height: 18px;
+}
+.nav-search-bar div input {
+  border: none;
+  width: 100%;
+  outline: none;
+  font-size: 12px;
+
+}
