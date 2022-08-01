@@ -1,5 +1,49 @@
+@font-face {
+  font-family: "Poppins-Extrabold";
+  src: url('./Poppins-ExtraBold.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('./Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Semibold';
+  src: url('./Poppins-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('./Poppins-Regular.ttf');
+}
+:root{
+  --black-color: #232631;
+  --purple-color: #5A4FCF;
+  --brown-color : #656565;
+  --yellow-color : #FFB800;
+  --dark-yellow-color : #FDC886;
+}
+
+
+
 body {
   background-color: #fafafa;
+}
+
+header.header{
+  margin-top: 2rem;
+}
+
+.navbar-collapse{
+  gap: 14rem;
+}
+.nav-item a{
+  color: var(--black-color)!important;
+  font-family: 'Poppins-Medium',sans-serif;
+}
+.nav-item a.active{
+  border-bottom: 2px solid var(--purple-color);
+}
+.nav-item a:hover{
+  color: var(--brown-color) !important;
 }
 
 .logo img{
@@ -9,14 +53,19 @@ body {
 
 .logo h2{
     margin: 0;
+    color: var(--black-color);
+    font-family: 'Poppins-ExtraBold', sans-serif;
 }
 .nav-search-bar div {
   background-color: white;
   width: 250px;
   padding-left: 2rem;
-
+  border-radius: 12px;
+  margin-right: 1rem;
 }
-
+.nav-search-bar{
+  margin-bottom: 0;
+}
 .nav-search-bar div img{
     width: 18px;
     height: 18px;
@@ -25,6 +74,212 @@ body {
   border: none;
   width: 100%;
   outline: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 12px;
-
+  font-family: 'Poppins-Medium',sans-serif;
+  color: var(--brown-color) !important;
 }
+
+.nav-search-bar button {
+  background-color: #5a4fcf4d;
+  color: #5A4FCF;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Poppins-Semibold';
+  font-size: 14px;
+  padding: 1rem 1.5rem;
+}
+.nav-search-bar button:hover{
+  background-color: var(--purple-color);
+  color: white;
+}
+.nav-search-bar button:focus{
+  border: none;
+  outline: none;
+} 
+
+
+
+
+
+.hero .card{
+  border: none;
+  width: 300px;
+  border-radius: 24px;
+  margin-top: 12rem;
+  margin-bottom: -25rem;
+}
+
+
+.stars{
+  margin-bottom: 1rem;
+}
+.stars .star img {
+  width: 14px;
+  height: 14px;
+}
+.stars div{
+  height: 14px;
+}
+.stars div p{
+
+  font-size: 14px;
+  margin-bottom: 0;
+  color: var(--yellow-color);
+  font-family: 'Poppins-Semibold', sans-serif;
+}
+
+.stars div p span {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: var(--brown-color);
+  font-family: 'Poppins-Regular', sans-serif;
+}
+
+.card-body h5{
+  font-family: 'Poppins-SemiBold',sans-serif;
+  font-size: 18px;
+}
+
+.card-body p.card-text{
+  font-family: 'Poppins-SemiBold';
+  color: var(--brown-color);
+  margin-bottom: 0;
+  margin-bottom: 0.25rem;
+  font-size: 15px;
+}
+
+.card-location img{
+  width: 20px;
+  height: 20px;
+}
+
+.card-location p {
+  font-family: 'Poppins-Regular';
+  margin-bottom: 0;
+  font-size: 14px;
+  color: var(--brown-color);
+}
+
+.card-body a.btn{
+  margin-top: 2rem;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--dark-yellow-color);
+  color: var(--black-color);
+  font-family: 'Poppins-SemiBold',sans-serif;
+  padding: 1rem;
+  font-size: 14px;
+}
+.card-body a.btn:active{
+  border: none;
+  outline: none;
+}
+.card-body a.btn span{
+  margin-left: 0.4rem;
+}
+
+.info{
+  margin-top: 1rem;
+}
+.info img{
+  width: 20px;
+  height: 20px;
+}
+
+.info p{
+  margin-bottom: 0;
+  font-family: 'Poppins-Regular',sans-serif;
+  color: var(--brown-color);
+  font-size: 14px;
+}
+
+.images-collection{
+  margin-left: 5rem;
+}
+
+.images-collection .image img{
+  width: 1128px;
+  height: 564px;
+  
+}
+
+
+
+.content-benefit{
+  margin-bottom: 2rem;
+}
+
+.benefit-title{
+  margin-top: 6rem;
+}
+
+.content-benefit .cards{
+  margin-top: 3rem;
+}
+
+.benefit-title h5{
+  font-family: 'Poppins-SemiBold';
+  font-size: 18px;
+  text-align: center;
+  color: var(--purple-color);
+  text-transform: uppercase;
+}
+
+.benefit-title h4{
+  font-family: 'Poppins-SemiBold';
+  font-size: 28px;
+  text-align: center;
+  color: var(--black-color);
+  
+}
+
+
+.benefit-img{
+  width: 80px;
+  height: 80px;
+}
+
+.benefit-card{
+  border: none;
+  width: 300px;
+  border-radius: 24px;
+  padding-top: 2rem;
+  width: 320px;
+}
+
+.benefit-card .card-title{
+  font-size: 18px;
+  font-family: 'Poppins-SemiBold',sans-serif;
+}
+
+.benefit-card .card-body p{
+  font-family: 'Poppins-Regular',sans-serif;
+  font-size: 16px;
+}
+.btn-benefit.focused-benefit{
+  background-color: var(--dark-yellow-color);
+}
+.btn-benefit{
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-family: 'Poppins-SemiBold',sans-serif;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: var(--black-color);
+  background-color: white;
+  border-radius: 12px 12px 24px 24px;
+}
+.btn-benefit:hover{
+  background-color: var(--dark-yellow-color);
+}
+.btn-benefit span{
+  margin-left: 0.2rem;
+}
+
