@@ -174,9 +174,8 @@ header.header{
   padding: 1rem;
   font-size: 14px;
 }
-.card-body a.btn:active{
-  border: none;
-  outline: none;
+.card-body a.btn:hover{
+  color: white;
 }
 .card-body a.btn span{
   margin-left: 0.4rem;
@@ -250,7 +249,10 @@ header.header{
   padding-top: 2rem;
   width: 320px;
 }
-
+.benefit-card:hover{
+  transition: all 0.3s ease-in-out;
+  margin-top: -1rem;
+}
 .benefit-card .card-title{
   font-size: 18px;
   font-family: 'Poppins-SemiBold',sans-serif;
@@ -283,3 +285,193 @@ header.header{
   margin-left: 0.2rem;
 }
 
+
+.top-featured{
+  margin-top: 6rem;
+}
+
+.top-featured-desc{
+  flex: 3;
+}
+
+.top-featured-desc h5{
+  font-family: 'Poppins-SemiBold';
+  font-size: 16px;
+  color: var(--purple-color);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.top-featured-desc h4{
+  font-family: 'Poppins-Semibold';
+  font-size: 28px;
+  color: var(--black-color);
+  margin-bottom: 1.25rem;
+}
+.top-featured-desc p{
+  width: 350px;
+  font-family: 'Poppins-Regular';
+  font-size: 16px;
+  color: var(--brown-color);
+  margin-bottom: 2.4rem;
+}
+.top-featured-desc a.btn{
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--dark-yellow-color);
+  color: var(--black-color);
+  font-family: 'Poppins-SemiBold',sans-serif;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 16px;
+}
+.top-featured-desc a.btn:hover{
+  color: white;
+}
+.top-featured-desc a.btn span{
+  margin-left: 0.4rem;
+}
+.top-featured-images{
+  flex: 7;
+}
+
+.images-card-featured.bigger{
+  margin-top: -130px;
+}
+
+
+.images-card-featured img{
+  height: 475px;
+  width: 214px;
+}
+
+
+.images-card-featured .card{
+  border: none;
+  outline: none;
+  width: 352px;
+  border-radius: 24px;
+  padding: 0.5rem;
+}
+.images-card-featured .card .card-body .card-location img{
+  width: 24px;
+  height: 24px;
+}
+.images-card-featured .card{
+  position: relative;
+  z-index: 1;
+  top: 451px;
+  left: 24px;
+}
+.card-btn-img button{
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: var(--dark-yellow-color);
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.card-btn-img button:hover{
+  background-color: var(--dark-yellow-color);
+}
+
+.card-btn-img button img{
+  width: 24px;
+  height: 24px;
+}
+.card-btn-img button img:hover{
+  filter: brightness(0) invert(1)
+}
+.images-card-featured img.bigger {
+  height: 475px;
+  width: 400px;
+}
+
+
+
+
+
+.restaurant-list{
+  margin-top: 8rem;
+}
+
+.restaurant-list-title .restaurant-list-text h5{
+  font-family: 'Poppins-SemiBold';
+  font-size: 16px;
+  color: var(--purple-color);
+  text-transform: uppercase;
+}
+
+.restaurant-list-title .restaurant-list-text h4{
+  font-family: 'Poppins-Semibold';
+  font-size: 28px;
+  color: var(--black-color);
+}
+
+.restaurant-list-btn button img{
+  width: 24px;
+  height: 24px;
+}
+
+.restaurant-list-btn button{
+  font-family: 'Poppins-Medium',sans-serif;
+  font-size: 16px;
+  padding: 1rem;
+  color: var(--brown-color);
+  border-radius: 12px;
+  background-color: #F2F2F2;
+}
+
+
+.restaurant-list-cards .card{
+  border: none;
+  outline: none;
+  width: 352px;
+  border-radius: 24px;
+  padding: 0.5rem;
+  position: relative;
+  z-index: 1;
+  top: 382px;
+  left: 31px;
+
+}
+
+.restaurant-list-cards img{
+  height: 415px;
+  width: 420px;
+}
+
+.card .card-body .card-title.restaurant-card-text{
+  font-size: 18px;
+}
+.card .card-body .card-text.restaurant-card-text{
+  font-size: 18px;
+}
+
+
+.restaurant-item{
+  margin-top: -6rem;
+}
+.restaurant-item:hover{
+  transition: all 0.3s ease-in-out;
+  margin-top: -7rem;
+}
+
+.restaurant-list div a.btn{
+  margin-top: 4rem;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--dark-yellow-color);
+  color: var(--black-color);
+  font-family: 'Poppins-SemiBold',sans-serif;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 16px;
+}
+
+.restaurant-list div a.btn:hover{
+  background-color: var(--dark-yellow-color);
+  color: white;
+}
