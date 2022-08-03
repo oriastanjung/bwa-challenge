@@ -31,7 +31,10 @@ body {
 header.header{
   margin-top: 2rem;
 }
-
+.hero .container .images-hero {
+  overflow: hidden;
+  width: 1400px;
+}
 .navbar-collapse{
   gap: 14rem;
 }
@@ -474,4 +477,422 @@ header.header{
 .restaurant-list div a.btn:hover{
   background-color: var(--dark-yellow-color);
   color: white;
+}
+
+
+
+
+.recomendation-chef{
+  margin-top: 8rem;
+}
+
+
+.chef{
+  margin-top: -15.25rem;
+}
+
+.chef .card-verified{
+  width: 160px;
+  height: 200px;
+  border-radius: 24px;
+  position: relative;
+  top: 25%;
+  left: 77%;
+}
+
+.chef .card h5{
+  font-size: 18px;
+  font-family: 'Poppins-SemiBold',sans-serif;
+}
+.chef .card p{
+  font-size: 16px;
+  font-family: 'Poppins-Regular',sans-serif;
+}
+.chef .img{
+  margin-left: 4rem;
+}
+.chef .img img{
+  width: 500px;
+  height: 800px;
+}
+.chef .card img {
+  width: 60px;
+  height: 60px;
+}
+
+.chef .card-chef-details{
+  top: -20%;
+  width: 330px;
+  border-radius: 24px;
+}
+.chef .card-chef-details img{
+  width: 80px !important;
+  height: 100px !important;
+}
+.chef .card-body{
+  margin-top: 0.25rem;
+}
+.chef .card-body h5{
+  margin-bottom: 0;
+}
+.chef .card-chef-details a.btn{
+  margin-top: 0.75rem;
+  padding: 0;
+  outline: none;
+  font-size: 16px;
+  font-family: 'Poppins-SemiBold', sans-serif;
+  background-color: white;
+  color: var(--dark-yellow-color);
+}
+
+.chef .card-chef-details a.btn:hover{
+  color: var(--black-color);
+}
+
+
+.chef-desc {
+  margin-left: 8rem;
+  width: 100%;
+}
+
+.chef-desc .chef-title h5{
+  font-family: 'Poppins-SemiBold',sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--purple-color);
+}
+
+.chef-desc .chef-title h4{
+  font-family: 'Poppins-SemiBold',sans-serif;
+  font-size: 32px;
+  color: var(--black-color);
+}
+
+.chef-item{
+  margin-bottom: 2rem;
+}
+
+.chef-item.active{
+  background-color: white;
+  border-radius: 24px;
+  padding-right: 1rem;
+}
+.chef-item .card-body .card-text{
+  font-size: 16px;
+  font-family: 'Poppins-Regular',sans-serif;
+  text-transform: uppercase;
+}
+.chef-item .card{
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+}
+.chef-item .card-body .card-title{
+  font-size: 20px;
+}
+.chef-item .card-body div img{
+  width: 24px;
+  height: 24px;
+}
+.chef-item .card-body div p{
+  font-size: 16px;
+  font-family: 'Poppins-Regular',sans-serif;
+  margin-bottom: 0;
+  color: var(--brown-color);
+}
+
+.chef-item .profile-chef-details a.btn{
+  font-size: 16px;
+  font-family: 'Poppins-Medium';
+  border: 0;
+  padding: 0;
+  width: 130px;
+  background-color: transparent;
+  color: var(--dark-yellow-color);
+}
+
+.chef-list .button{
+  margin-top: 5rem;
+}
+
+.chef-list .button button{
+  font-size: 16px;
+  font-family: 'Poppins-SemiBold';
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 170px;
+  color: var(--black-color);
+  background-color: var(--dark-yellow-color);
+}
+
+.chef-list .button button:hover{
+  color: white;
+}
+
+
+
+
+
+@media (max-width: 1200px){
+  .logo img{
+    width: 24px;
+    height: 24px;
+  }
+  .logo h2{
+    font-size: 25px;
+  }
+  .nav-search-bar button{
+    padding: 1rem;
+    font-size: 14px;
+  }
+  .navbar-collapse{
+    gap: 5rem;
+  }
+  .nav-item a{
+    font-size: 12px;
+  }
+  .nav-item{
+    padding: 0;
+  }
+
+
+  .hero .card{
+    
+  }
+  .card-body h5{
+    font-size: 14px;
+  }
+  .card-body p.card-text{
+    font-size: 13px;
+  }
+  .card-location p {
+    font-size: 12px;
+  }
+  .card-body a.btn{
+    font-size: 12px;
+    padding: 0.5rem;
+  }
+  
+  .info img{
+    width: 18px;
+    height: 18px;
+  }
+  .info p{
+    font-size: 12px;
+  }
+
+
+
+
+
+
+
+
+  .images-collection{
+    gap: 0.5rem !important;
+    margin-left: 3rem;
+  }
+  
+  .images-collection .image img{
+    width:800px;
+    height: 500px;
+  }
+
+  .hero .container .images-hero {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .images-card-featured img{
+    height: 300px;
+    width: 120px;
+  }
+  .images-card-featured img.bigger {
+    height: 300px;
+    width: 250px;
+  }
+  .images-card-featured.bigger{
+    margin-top: -7rem;
+    margin-right: 00px;
+  }
+  .images-card-featured .card{
+    padding: 0;
+    width: 230px;
+    position: relative;
+    z-index: 1;
+    top: 280px;
+    left: 10px;
+  }
+  .images-card-featured .card .card-body .card-title p{
+    font-size: 12px;
+  }.images-card-featured .card .card-body .card-title p span{
+    font-size: 12px;
+  }
+
+  .images-card-featured .card .card-body h5{
+    font-size: 14px;
+  }
+  .images-card-featured .card .card-body .card-location p{
+    font-size: 12px;
+  }
+  
+
+
+  .benefit-title h5{
+    font-size: 16px;
+  }
+  .benefit-title h4{
+    font-size: 24px;
+  }
+  .benefit-img{
+    width: 60px;
+    height: 60px;
+  }
+  .benefit-card{
+    width: 280px;
+  }
+  .benefit-card .card-title{
+    font-size: 16px;
+  }
+  .benefit-card .card-body p{
+    font-size: 14px;
+  }
+  .btn-benefit{
+    margin-top: 0rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-size: 13px;
+  }
+
+
+
+
+  .top-featured-desc h5{
+    font-size: 15px;
+  }
+  .top-featured-desc h4{
+    font-size: 24px;
+  }
+  .top-featured-desc p{
+    font-size: 14px;
+  }
+  .top-featured-desc a.btn{
+    font-size: 14px;
+  }
+
+
+
+
+
+  .restaurant-list-title .restaurant-list-text h5{
+    font-size: 15px;
+  }
+  .restaurant-list-title .restaurant-list-text h4{
+    font-size: 24px;
+  }
+  .restaurant-list-btn button img{
+    width: 18px;
+    height: 18px;
+  }
+  .restaurant-list-btn button{
+    padding: 0.75rem;
+    font-size: 14px;
+  }
+
+  .restaurant-list div a.btn{
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+    font-size: 14px;
+  }
+  
+  .restaurant-list-cards img{
+    height: 295px;
+    width: 300px;
+  }
+  .restaurant-list-cards .card{
+    width: 260px;
+    border-radius: 24px;
+    padding: 0rem;
+    position: relative;
+    z-index: 1;
+    top: 280px;
+    left: 20px;
+  
+  }
+  .card .card-body .card-title.restaurant-card-text{
+    font-size: 14px;
+  }
+  .card .card-body .card-text.restaurant-card-text{
+    font-size: 12px;
+  }
+  
+
+
+
+  .chef{
+    margin-top: -12.5rem;
+  }
+  .chef .img img{
+    width: 450px;
+    height: 700px;
+  }
+
+  .chef .card img {
+    width: 55px;
+    height: 55px;
+  }
+  .chef .card-verified{
+    padding: 0;
+    width: 120px;
+    height: 150px;
+    position: relative;
+    top: 25%;
+    left: 80%;
+  }
+
+  .chef .card h5 {
+    font-size: 14px;
+  }
+  .chef .card p{
+    font-size: 12px;
+  }
+  .chef .card-chef-details img{
+    width: 50px !important;
+    height: 70px !important;
+  }
+  .chef .card-chef-details{
+    top: -20%;
+    width: 250px;
+  }
+  .chef .card-chef-details a.btn{
+    font-size: 12px;
+  }
+
+  .chef-desc {
+    margin-left: 4rem;
+  }
+  .chef-item .card-body div p{
+    font-size: 12px;
+  }
+  .chef-item .card-body .card-text {
+    font-size: 14px;
+  }
+  .chef-item .card-body .card-title{
+    font-size: 16px;
+  }
+  .chef-item .profile-chef-details a.btn{
+    font-size: 12px;
+  }
+  .chef-list .button button{
+    font-size: 14px;
+  }
+  .chef-desc .chef-title h5{
+    font-size: 14px;
+  }
+  .chef-desc .chef-title h4{
+    font-size: 24px;
+  }
+  .chef-item{
+    margin-bottom: 1rem;
+  }
 }
